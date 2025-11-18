@@ -8,11 +8,26 @@
   </head>
 
   <body>
+    <header class="header">
+      <div class="header__container">
+        <h1>
+          <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney Plus" />
+        </h1>
+        <ul class="header__links">
+          <li class="header__links__item">
+            <a href="#" class="button button--secondary"> Assine agora</a>
+          </li>
+          <li class="header__links__item">
+            <a href="#" class="button button--dark">Iniciar Sessão</a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <section class="hero">
       <div class="hero__content">
-        <h1 class="hero__content__branding">
+        <div class="hero__content__branding">
           <img src="./dist/images/disneyplus.svg" alt="Disney Plus" />
-        </h1>
+        </div>
         <h3 class="title--small">
           Filmes, séries e muito mais. Tudo em um só lugar.
         </h3>
@@ -286,10 +301,7 @@
           </ul>
         </li>
         <li class="available-devices__list__item">
-          <img
-            src="./dist/images/dispositivos/celular.png"
-            alt="celular"
-          />
+          <img src="./dist/images/dispositivos/celular.png" alt="celular" />
           <h4 class="title--small">Celular e tablets</h4>
           <ul class="text">
             <li>Tablets Amazon Fire</li>
@@ -301,8 +313,7 @@
     </section>
 
     <section class="faq">
-
-      <h2 class="title"> Perguntas Frequentes</h2>
+      <h2 class="title">Perguntas Frequentes</h2>
 
       <ul class="faq__questions">
         <li class="faq__questions__item">
@@ -311,94 +322,80 @@
           </div>
           <div class="faq__questions__item__answer text--big">
             A Resposta da pergunta.
-
           </div>
-
-
-
         </li>
-           <li class="faq__questions__item">
+        <li class="faq__questions__item">
           <div class="faq__questions__item__question" data-faq-question>
             Pergunta?
           </div>
           <div class="faq__questions__item__answer text--big">
             A Resposta da pergunta.
-
           </div>
-
-
-
         </li>
-           <li class="faq__questions__item">
+        <li class="faq__questions__item">
           <div class="faq__questions__item__question" data-faq-question>
             Pergunta?
           </div>
           <div class="faq__questions__item__answer text--big">
             A Resposta da pergunta.
-
           </div>
-
-
-
         </li>
       </ul>
     </section>
     <footer class="footer">
       <div class="footer__container">
+        <img
+          class="footer__logo"
+          src="./dist/images/disneyplus.svg"
+          alt="Disney Plus"
+        />
 
+        <ul class="footer__links">
+          <li class="footer__links__item">
+            <div class="linguage-selector">
+              <img src="./dist/images/icones/globe.svg" alt="Globo" />
+              <select>
+                <option>Enlgish</option>
+                <option selected>Portugues</option>
+              </select>
+            </div>
+          </li>
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Termos e condicoes de uso</a>
+          </li>
 
-        <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney Plus">
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Politica de privacidade</a>
+          </li>
 
-      <ul class="footer__links">
-        <li class="footer__links__item">
-          <div class="linguage-selector">
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Protecao de dados no Brasil</a>
+          </li>
 
-            <img src="./dist/images/icones/globe.svg" alt="Globo">
-            <select>
-              <option>Enlgish</option>
-               <option selected>Portugues</option>
-            </select>
-          </div>
-        </li>
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Termos e condicoes de uso</a>
-        </li>
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Anuncios personalizados</a>
+          </li>
 
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Politica de privacidade</a>
-        </li>
-  
-    
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Protecao de dados no Brasil</a>
-        </li>
- 
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Anuncios personalizados</a>
-        </li>
- 
-      
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Dispositivos compativeis</a>
-        </li>
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Dispositivos compativeis</a>
+          </li>
 
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Ajuda</a>
-        </li>
-      
-      
-        <li class="footer__links__item">
-          <a class="text--small" href="#">Sobre o Disney+</a>
-        </li>
-      </ul>
-      <p class="text--small">© 1995-2023 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados</p>
-      <p class="text--small">
-        Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
-      </p>
-    
-      
-        </div>
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Ajuda</a>
+          </li>
 
+          <li class="footer__links__item">
+            <a class="text--small" href="#">Sobre o Disney+</a>
+          </li>
+        </ul>
+        <p class="text--small">
+          © 1995-2023 Disney, Disney+ e The Walt Disney Company. Todos os
+          direitos reservados
+        </p>
+        <p class="text--small">
+          Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+        </p>
+      </div>
     </footer>
     <script src="./src/main.js"></script>
   </body>
