@@ -36,7 +36,7 @@ Confira a aplicação em funcionamento:
 
 ## 📂 Estrutura do Projeto
 
-
+```text
 Projeto/
 ├── src/
 │ ├── js/
@@ -49,7 +49,7 @@ Projeto/
 ├── gulpfile.js
 ├── package.json
 └── index.html
-
+'''
 
 ---
 
